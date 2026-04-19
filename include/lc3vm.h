@@ -92,6 +92,10 @@ void toutu16();
 void trap(uint16_t i);
 void ld_img(char* fname, uint16_t offset);
 void update_flags(enum registr r);
+void add(uint16_t i);
+void andlc(uint16_t i);
+void notlc(uint16_t i);
+
 #ifdef TEST
 } // end extern C for C++ test runner
 #endif
