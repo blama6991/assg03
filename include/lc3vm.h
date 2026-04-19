@@ -95,7 +95,10 @@ void update_flags(enum registr r);
 void add(uint16_t i);
 void andlc(uint16_t i);
 void notlc(uint16_t i);
-
+void ld(uint16_t i);
+void ldi(uint16_t i);
+void ldr(uint16_t i);
+void lea(uint16_t i);
 #ifdef TEST
 } // end extern C for C++ test runner
 #endif
