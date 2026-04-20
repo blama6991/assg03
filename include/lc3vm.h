@@ -105,6 +105,7 @@ void str(uint16_t i);
 void jmp(uint16_t i);
 void br(uint16_t i);
 void jsr(uint16_t i);
+void start(uint16_t offset);
 #ifdef TEST
 } // end extern C for C++ test runner
 #endif
